@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class controlmenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+  public void OnpressJuegar()
     {
-        
+        Debug.Log("jugar");
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Onpressinstrucciones()
     {
-        
+        Debug.Log("instrucciones");
     }
 }
