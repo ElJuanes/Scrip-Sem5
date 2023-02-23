@@ -1,16 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using MoreMountains.CorgiEngine;
+using MoreMountains.Tools;
 
 public class controlmenu : MonoBehaviour
 {
   public void OnpressJuegar()
     {
-        Debug.Log("jugar");
+        MMSceneLoadingManager.LoadScene("nivel1");
     }
 
     public void Onpressinstrucciones()
     {
-        Debug.Log("instrucciones");
+        MMSceneLoadingManager.LoadScene("instrucciones");
+    }
+
+     public void OnpressSalir()
+    {
+        MMSceneLoadingManager.LoadScene("Salir");
     }
 }
