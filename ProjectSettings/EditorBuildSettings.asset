@@ -224,4 +224,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/MMAdditiveLoadingScreenSimple.unity
     guid: 945e5b97212e8e74ebcd35bddde3970c
+  - enabled: 1
+    path: Assets/Future dog z/menu.unity
+    guid: 439c6f077e2710b4880b0c15c0d28d88
+  - enabled: 1
+    path: Assets/Future dog z/nivel1.unity
+    guid: dd49cedee4bf1d941ac52b4d0ae974b5
+  - enabled: 1
+    path: Assets/Future dog z/instrucciones.unity
+    guid: 949c2f9813381214f86c2cd08597b34c
   m_configObjects: {}
