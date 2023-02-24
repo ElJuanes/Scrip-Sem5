@@ -15,13 +15,13 @@ Un perro (zero) que vivía cómodamente con su familia, un día la familia de ze
 LINK CANVA: https://www.canva.com/design/DAFamehwO38/hE8K455lKH-S5uZWyQEHaQ/view?utm_content=DAFamehwO38&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 
-## Importante
+## Importante !!!
 
 Nosotros tenemos ramas de cada estudiante
 
 
 
-> **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
+
 
 
 
