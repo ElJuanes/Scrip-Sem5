@@ -9,8 +9,8 @@ public class controlmenu : MonoBehaviour
 {
   public void OnpressJugar()
     {
-        MMSceneLoadingManager.LoadScene("nivel1");
-        SceneManager.LoadScene("nivel1", LoadSceneMode.Single);
+        MMSceneLoadingManager.LoadScene("Nivel 2.1");
+        SceneManager.LoadScene("Nivel 2.1", LoadSceneMode.Single);
     }
 
     public void Onpressinstrucciones()
