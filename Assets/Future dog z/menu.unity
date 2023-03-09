@@ -257,7 +257,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 43397692}
-        m_TargetAssemblyTypeName: controlmenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: ControlMenu, Assembly-CSharp
         m_MethodName: OnpressJugar2
         m_Mode: 1
         m_Arguments:
@@ -557,7 +557,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 559703639}
-        m_TargetAssemblyTypeName: controlmenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: ControlMenu, Assembly-CSharp
         m_MethodName: OnpressJugar
         m_Mode: 1
         m_Arguments:
@@ -830,7 +830,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1154859990}
-        m_TargetAssemblyTypeName: controlmenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: ControlMenu, Assembly-CSharp
         m_MethodName: Onpressinstrucciones
         m_Mode: 1
         m_Arguments:
@@ -1140,7 +1140,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2076927467}
-        m_TargetAssemblyTypeName: controlmenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: ControlMenu, Assembly-CSharp
         m_MethodName: OnpressSalir
         m_Mode: 1
         m_Arguments:
