@@ -22,7 +22,7 @@ public class ControlMenu : MonoBehaviour
 
     public void Onpressinstrucciones()
     {
-        //MMSceneLoadingManager.LoadScene("instrucciones");
+        //MMSceneLoadingManager.LoadScene("Instrucciones");
         SceneManager.LoadScene("Instrucciones", LoadSceneMode.Single);
     }
 

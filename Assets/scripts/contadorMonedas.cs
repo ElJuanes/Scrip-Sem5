@@ -10,11 +10,17 @@ public class contadorMonedas : MonoBehaviour
     private TMP_Text txt_contador_monedas;
     private int contador_monedas;
 
+    public int CantidadMonedasRecolectadas()
+    {
+        return contador_monedas;
+    }
+
     public void ActualizarPuntaje(int valor)
     {
         contador_monedas += valor;
         ActualizarValorUI();
     }
+
 
     
 
