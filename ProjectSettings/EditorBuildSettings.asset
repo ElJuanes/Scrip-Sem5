@@ -38,7 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CorgiEngine/Demos/Corgi2D/Lava.unity
     guid: 021858c77d85c1e4a944245dd9e0cf08
-  - enabled: 1
+  - enabled: 0
     path: Assets/Future dog z/PixelLevel.unity
     guid: 2380b3a9640179c4791abe8cdec4ea5c
   - enabled: 1
@@ -225,15 +225,18 @@ EditorBuildSettings:
     path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/MMAdditiveLoadingScreenSimple.unity
     guid: 945e5b97212e8e74ebcd35bddde3970c
   - enabled: 0
-    path: Assets/Future dog z/instrucciones.unity
-    guid: 9a6d476d35a18ba4ba3e89fa6a8a9cf8
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/Future dog z/menu.unity
     guid: 439c6f077e2710b4880b0c15c0d28d88
   - enabled: 1
-    path: Assets/Scenes/JuegoFDz/instrucciones.unity
+    path: Assets/Scenes/JuegoFDz/Instrucciones.unity
     guid: ca0087c1970cc9a479283b177d3930a7
   - enabled: 1
     path: Assets/Scenes/JuegoFDz/menu.unity
     guid: e9106449810a45b439cae70539d33ff3
+  - enabled: 1
+    path: Assets/Scenes/JuegoFDz/PixelLevel.unity
+    guid: c4ac3d3ee143ee2458d025362ce6d490
   m_configObjects: {}
