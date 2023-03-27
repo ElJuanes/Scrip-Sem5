@@ -3,29 +3,32 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MuroV : MonoBehaviour
+public class MuroAyuda : MonoBehaviour
 {
     [SerializeField]
     private GameObject muro;
-    private contadorMonedas contador_monedas;
   
+    private Contadorllaves contador_llaves;
 
     public void Start()
     {
-        contador_monedas = this.transform.parent.GetComponent<contadorMonedas>();
-        Debug.Log(contador_monedas);
+        contador_llaves = this.transform.parent.GetComponent<Contadorllaves>();
+        Debug.Log(contador_llaves);
+
     }
 
     public void Update()
     {
-        if (contador_monedas.CantidadMonedasRecolectadas() == 20) 
+        if (contador_llaves.CantidadllavesRecolectadas() == 2) 
         {
             CambiarEstado(false);
         }
+    
     }
 
     public void CambiarEstado(bool estado)
     {
         muro.SetActive(estado);
+      
     }
 }
