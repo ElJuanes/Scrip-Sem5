@@ -19,7 +19,11 @@ MonoBehaviour:
     width: 1366
     height: 677
   m_ShowMode: 4
+<<<<<<< Updated upstream
   m_Title: Game
+=======
+  m_Title: Inspector
+>>>>>>> Stashed changes
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +52,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 22
+=======
+  controlID: 57
+>>>>>>> Stashed changes
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -66,10 +74,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1024
     y: 0
+<<<<<<< Updated upstream
     width: 342
     height: 627
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+    width: 454
+    height: 947
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> Stashed changes
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -92,10 +107,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
     width: 251
     height: 371
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+    width: 347
+    height: 561
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> Stashed changes
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -223,7 +245,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 23
+=======
+  controlID: 62
+>>>>>>> Stashed changes
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +274,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 24
+=======
+  controlID: 63
+>>>>>>> Stashed changes
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -326,6 +356,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/CorgiEngine/Demos/Minimal
   m_LastFoldersGridSize: -1
+<<<<<<< Updated upstream
   m_LastProjectPath: C:\Users\User\Documents\universidad\Unity\corgi
   m_LockTracker:
     m_IsLocked: 0
@@ -334,6 +365,16 @@ MonoBehaviour:
     m_SelectedIDs: b2720000
     m_LastClickedID: 29362
     m_ExpandedIDs: 00000000a8720000aa720000ac720000ae720000b0720000b2720000b472000000ca9a3b
+=======
+  m_LastProjectPath: D:\xJuanda\UNIVERSIDAD5\Scripting\Scrip-Sem5
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 48800000
+    m_LastClickedID: 32840
+    m_ExpandedIDs: 0000000046800000488000004a800000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -361,7 +402,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000a8720000aa720000ac720000ae720000b0720000b2720000b4720000
+=======
+    m_ExpandedIDs: 0000000046800000488000004a800000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -490,10 +535,17 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< Updated upstream
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: d8faffff
+=======
+      scrollPos: {x: 0, y: 2329}
+      m_SelectedIDs: 12ecffff
+      m_LastClickedID: -5102
+      m_ExpandedIDs: 1addffffdefaffffb86e0000126f00004e74000052750000
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -509,7 +561,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -809,9 +861,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< Updated upstream
     m_Target: {x: -71.51215, y: -2.2256317, z: -17.240313}
     speed: 2
     m_Value: {x: -71.51215, y: -2.2256317, z: -17.240313}
+=======
+    m_Target: {x: 6.513813, y: 0.1357699, z: 0.3397472}
+    speed: 2
+    m_Value: {x: 6.513813, y: 0.1357699, z: 0.3397472}
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -862,9 +920,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< Updated upstream
     m_Target: 12.124355
     speed: 2
     m_Value: 12.124355
+=======
+    m_Target: 17.905222
+    speed: 2
+    m_Value: 17.905222
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 1
     speed: 2
