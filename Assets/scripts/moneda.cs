@@ -8,6 +8,8 @@ using MoreMountains.CorgiEngine;
 public class moneda : PickableItem
 {
     [SerializeField]
+    private GameObject game_object;
+
     private GameObject ui_puntaje;
     [SerializeField]
     private int valor_moneda;
@@ -16,6 +18,16 @@ public class moneda : PickableItem
     public void Start()
     {
         contador_monedas = ui_puntaje.GetComponent<contadorMonedas>();
+    }
+
+    public void Ocultar()
+    {
+        game_object.SetActive(false);
+    }
+
+    public void Mostrar()
+    {
+        game_object.SetActive(true);
     }
 
     protected override void Pick(GameObject picker)
