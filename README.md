@@ -1,4 +1,8 @@
-﻿# FUTURE DOG Z
+ # Total commits entre todas las ramas 139﻿
+ 
+ 
+ 
+ # FUTURE DOG Z
 
 Un perro (zero) que vivía cómodamente con su familia, un día la familia de zero sufrió un asalto en su propia casa, en el cual secuestraron a toda la familia de zero, por el miedo de no saber que hacer zero se tropezó y termino dentro de un congelador, luego de varios años un estruendo en el mundo hizo que la nevera se moviera y zero se empezara a descongelar para así salir en búsqueda de algún rastro de su familia.
 
