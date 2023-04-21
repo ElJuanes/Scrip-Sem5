@@ -1,4 +1,3 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,34 +7,37 @@ using MoreMountains.CorgiEngine;
 public class Aleatorio : MonoBehaviour
 {
     [SerializeField]
-    private List<moneda> coins;
+    private List<Enemigo> enemi;
     private int[] indices = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
     void Start()
     {
         Shuffle();
-        OcultarMonedas();
-        MostrarMonedas(5);
+        OcultarEnemigo();
+        MostrarEnemigo(5);
     }
 
-    public void MostrarMonedas(int total)
+    public void MostrarEnemigo(int total)
     {
-        int indice_moneda;
-        if (total >= 0 && total < coins.Count)
+        int indice_enemigo;
+        if (total >= 0 && total < enemi.Count)
         {
             for (int i = 0; i < total; i++)
             {
-                indice_moneda = indices[i];
-                coins[indice_moneda].Mostrar();
+                indice_enemigo = indices[i];
+                if (indice_enemigo < enemi.Count)
+                {
+                    enemi[indice_enemigo].Mostrar();
+                }
             }
         }
     }
 
-    public void OcultarMonedas()
+    public void OcultarEnemigo()
     {
-        for (int i = 0; i <= coins.Count; i++)
+        for (int i = 0; i < enemi.Count; i++)
         {
-            coins[i].Ocultar();
+            enemi[i].Ocultar();
         }
     }
 
