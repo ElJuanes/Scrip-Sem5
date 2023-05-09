@@ -8,6 +8,7 @@ TagManager:
   - Music
   - Background
   - NoMask
+  - vida
   layers:
   - Default
   - TransparentFX

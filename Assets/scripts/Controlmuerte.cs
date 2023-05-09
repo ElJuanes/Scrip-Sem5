@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using MoreMountains.Tools;
-
 using MoreMountains.CorgiEngine;
 
 
 public class Controlmuerte : MonoBehaviour, MMEventListener<CorgiEngineEvent>,
-                                            MMEventListener<PickableItemEvent>,
                                             MMEventListener<MMDamageTakenEvent>{
 
 
@@ -17,15 +15,15 @@ public class Controlmuerte : MonoBehaviour, MMEventListener<CorgiEngineEvent>,
 
     private List <GameObject> corazones;
 
-    private int vidas;  
+    private int vidas;
 
 
-   
+
     [SerializeField]
 
 
 
-    private int total_estrellas;
+   
 
     public void Start(){
         vidas = corazones.Count;
@@ -35,12 +33,7 @@ public class Controlmuerte : MonoBehaviour, MMEventListener<CorgiEngineEvent>,
     {
         if (e.EventType == CorgiEngineEventTypes.PlayerDeath)
         {
-            if (vidas - 1 >= 0)
-            {
-                vidas--;
-                corazones[vidas].SetActive(false);
-            }
-
+            
             if (vidas == 0) 
             {
                 Debug.Log("Game Over");
@@ -53,16 +46,7 @@ public class Controlmuerte : MonoBehaviour, MMEventListener<CorgiEngineEvent>,
     }
 
 
-    public virtual void OnMMEvent(PickableItemEvent e)
-
-    {
-
-        Debug. Log("Pick");
-
-       
-        
-
-    }
+   
     public virtual void OnMMEvent(MMDamageTakenEvent e)
 
     {
@@ -75,17 +59,13 @@ public class Controlmuerte : MonoBehaviour, MMEventListener<CorgiEngineEvent>,
     void OnEnable()
     {
         this.MMEventStartListening<CorgiEngineEvent>();
-        this.MMEventStartListening<PickableItemEvent>();
         this.MMEventStartListening<MMDamageTakenEvent>();
     }
-    
+
     void OnDisable()
     {
         this.MMEventStopListening<CorgiEngineEvent>();
-        this.MMEventStopListening<PickableItemEvent>(); 
         this.MMEventStopListening<MMDamageTakenEvent>();
     }
 
 }
-
-
