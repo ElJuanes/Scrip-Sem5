@@ -5,27 +5,17 @@ using UnityEngine.SceneManagement;
 using MoreMountains.Tools;
 using MoreMountains.CorgiEngine;
 
-
-public class Controlmuerte : MonoBehaviour, MMEventListener<CorgiEngineEvent>,
-                                            MMEventListener<MMDamageTakenEvent>{
-
-
-
+public class Controlmuerte : MonoBehaviour, MMEventListener<CorgiEngineEvent>, MMEventListener<MMDamageTakenEvent>
+{
     [SerializeField]
-
-    private List <GameObject> corazones;
-
+    private List<GameObject> corazones;
     private int vidas;
 
+    private int muertes = 0; // añadimos contador de muertes
+    private int vidaCero = 0; // añadimos contador de vidas a cero
 
-
-    [SerializeField]
-
-
-
-   
-
-    public void Start(){
+    public void Start()
+    {
         vidas = corazones.Count;
     }
 
@@ -33,8 +23,10 @@ public class Controlmuerte : MonoBehaviour, MMEventListener<CorgiEngineEvent>,
     {
         if (e.EventType == CorgiEngineEventTypes.PlayerDeath)
         {
-            
-            if (vidas == 0) 
+            muertes++; // incrementamos el contador de muertes
+            vidaCero++; // incrementamos el contador de vidas a cero
+
+            if (muertes == 3 || vidaCero == 3) // verificamos si llegamos a tres muertes o vidas a cero
             {
                 Debug.Log("Game Over");
                 SceneManager.LoadScene("menu", LoadSceneMode.Single);
@@ -45,10 +37,7 @@ public class Controlmuerte : MonoBehaviour, MMEventListener<CorgiEngineEvent>,
         Debug.Log(e.EventType);
     }
 
-
-   
     public virtual void OnMMEvent(MMDamageTakenEvent e)
-
     {
         //Debug.Log("Daño");
         //Debug.Log(" Daño causado " e.DamageCaused);
@@ -68,4 +57,9 @@ public class Controlmuerte : MonoBehaviour, MMEventListener<CorgiEngineEvent>,
         this.MMEventStopListening<MMDamageTakenEvent>();
     }
 
+    public void ReiniciarContadores() // reiniciamos los contadores
+    {
+        muertes = 0;
+        vidaCero = 0;
+    }
 }
