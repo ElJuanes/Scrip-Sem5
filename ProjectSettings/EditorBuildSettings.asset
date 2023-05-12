@@ -242,4 +242,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/JuegoFDz/Nivel 2.1.unity
     guid: 25d307ea7c348b44da07d63d2b295553
+  - enabled: 1
+    path: Assets/Scenes/JuegoFDz/nivel 3.unity
+    guid: ced533def5970aa4aba19539fb4d5dd8
   m_configObjects: {}

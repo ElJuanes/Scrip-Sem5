@@ -517,7 +517,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   corazones: []
-  total_estrellas: 0
 --- !u!114 &410188702044924773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -525,7 +524,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162546}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 93fd7dd776a49b145a00c561678d89ff, type: 3}
   m_Name: 
