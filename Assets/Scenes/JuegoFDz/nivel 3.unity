@@ -863,12 +863,12 @@ PrefabInstance:
     - target: {fileID: 2746492010353037708, guid: 780440eb3cf920b41a06f9e8ffbff9b7,
         type: 3}
       propertyPath: PathElements.Array.data[1].PathElementPosition.x
-      value: 5.8326416
+      value: 5.536667
       objectReference: {fileID: 0}
     - target: {fileID: 2746492010353037708, guid: 780440eb3cf920b41a06f9e8ffbff9b7,
         type: 3}
       propertyPath: PathElements.Array.data[1].PathElementPosition.y
-      value: 3.3758774
+      value: 3.8084545
       objectReference: {fileID: 0}
     - target: {fileID: 2746492010353037708, guid: 780440eb3cf920b41a06f9e8ffbff9b7,
         type: 3}
