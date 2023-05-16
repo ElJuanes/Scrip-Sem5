@@ -674,11 +674,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 469248, guid: 7bfb70ab3b6f0d54a9c5d52631b68104, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 139.28575
+      value: 139.41
       objectReference: {fileID: 0}
     - target: {fileID: 469248, guid: 7bfb70ab3b6f0d54a9c5d52631b68104, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.074498
+      value: 9.2
       objectReference: {fileID: 0}
     - target: {fileID: 469248, guid: 7bfb70ab3b6f0d54a9c5d52631b68104, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1204,7 +1204,7 @@ MonoBehaviour:
   DisableTargetObjectOnPick: 0
   TargetObjectToDisable: {fileID: 0}
   TargetObjectDisableDelay: 1
-  ui_puntaje: {fileID: 0}
+  ui_puntaje: {fileID: 1733909837}
   valor_moneda: 10
 --- !u!4 &54430649 stripped
 Transform:
@@ -1670,7 +1670,7 @@ MonoBehaviour:
   DisableTargetObjectOnPick: 0
   TargetObjectToDisable: {fileID: 0}
   TargetObjectDisableDelay: 1
-  ui_puntaje: {fileID: 0}
+  ui_puntaje: {fileID: 1289588275}
   valor_llaves: 1
 --- !u!1001 &74717256
 PrefabInstance:
@@ -1840,7 +1840,7 @@ MonoBehaviour:
   DisableTargetObjectOnPick: 0
   TargetObjectToDisable: {fileID: 0}
   TargetObjectDisableDelay: 1
-  ui_puntaje: {fileID: 0}
+  ui_puntaje: {fileID: 1733909837}
   valor_moneda: 10
 --- !u!1001 &83579974
 PrefabInstance:
@@ -3305,7 +3305,7 @@ MonoBehaviour:
   DisableTargetObjectOnPick: 0
   TargetObjectToDisable: {fileID: 0}
   TargetObjectDisableDelay: 1
-  ui_puntaje: {fileID: 0}
+  ui_puntaje: {fileID: 1733909837}
   valor_moneda: 10
 --- !u!1001 &163543429
 PrefabInstance:
@@ -4501,11 +4501,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 1f2a66a756024aa4c9a620cfda0854ed, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.1
+      value: 124.62
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 1f2a66a756024aa4c9a620cfda0854ed, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.7
+      value: -6.94
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 1f2a66a756024aa4c9a620cfda0854ed, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7073,7 +7073,7 @@ MonoBehaviour:
   DisableTargetObjectOnPick: 0
   TargetObjectToDisable: {fileID: 0}
   TargetObjectDisableDelay: 1
-  ui_puntaje: {fileID: 0}
+  ui_puntaje: {fileID: 1733909837}
   valor_moneda: 10
 --- !u!1001 &384236715
 PrefabInstance:
@@ -8493,7 +8493,7 @@ MonoBehaviour:
   DisableTargetObjectOnPick: 0
   TargetObjectToDisable: {fileID: 0}
   TargetObjectDisableDelay: 1
-  ui_puntaje: {fileID: 0}
+  ui_puntaje: {fileID: 1733909837}
   valor_moneda: 10
 --- !u!1001 &502748255
 PrefabInstance:
@@ -10712,7 +10712,7 @@ MonoBehaviour:
   DisableTargetObjectOnPick: 0
   TargetObjectToDisable: {fileID: 0}
   TargetObjectDisableDelay: 1
-  ui_puntaje: {fileID: 0}
+  ui_puntaje: {fileID: 1733909837}
   valor_moneda: 10
 --- !u!1001 &605714039
 PrefabInstance:
@@ -13939,7 +13939,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800014266}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.04, y: 6.46, z: 0.40110397}
+  m_LocalPosition: {x: 14.04, y: 8.21, z: 0.40110397}
   m_LocalScale: {x: 0.8247228, y: 0.8247228, z: 0.8247228}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18588,7 +18588,7 @@ MonoBehaviour:
   DisableTargetObjectOnPick: 0
   TargetObjectToDisable: {fileID: 0}
   TargetObjectDisableDelay: 1
-  ui_puntaje: {fileID: 0}
+  ui_puntaje: {fileID: 1733909837}
   valor_moneda: 10
 --- !u!1001 &1130809244
 PrefabInstance:
@@ -19806,7 +19806,7 @@ MonoBehaviour:
   DisableTargetObjectOnPick: 0
   TargetObjectToDisable: {fileID: 0}
   TargetObjectDisableDelay: 1
-  ui_puntaje: {fileID: 0}
+  ui_puntaje: {fileID: 1733909837}
   valor_moneda: 10
 --- !u!1001 &1198348385
 PrefabInstance:
@@ -21880,7 +21880,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379190593}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -29.694305, y: -15.135483, z: 0.40110397}
+  m_LocalPosition: {x: -29.694305, y: -12.94, z: 0.40110397}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22360,7 +22360,7 @@ MonoBehaviour:
   DisableTargetObjectOnPick: 0
   TargetObjectToDisable: {fileID: 0}
   TargetObjectDisableDelay: 1
-  ui_puntaje: {fileID: 0}
+  ui_puntaje: {fileID: 1733909837}
   valor_moneda: 10
 --- !u!1001 &1390640377
 PrefabInstance:
@@ -24770,7 +24770,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1596631738}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 120.79, y: 0.7, z: 0}
+  m_LocalPosition: {x: 119.16, y: 0.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27545,7 +27545,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 494012, guid: e1745fda3f371114a9aa13be60e2053e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.2
+      value: 4.6
       objectReference: {fileID: 0}
     - target: {fileID: 494012, guid: e1745fda3f371114a9aa13be60e2053e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -33568,7 +33568,7 @@ MonoBehaviour:
   DisableTargetObjectOnPick: 0
   TargetObjectToDisable: {fileID: 0}
   TargetObjectDisableDelay: 1
-  ui_puntaje: {fileID: 0}
+  ui_puntaje: {fileID: 1733909837}
   valor_moneda: 10
 --- !u!4 &2143755679 stripped
 Transform:
