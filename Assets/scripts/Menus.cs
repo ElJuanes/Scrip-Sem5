@@ -10,7 +10,7 @@ public class Menus : MonoBehaviour
   public void OnpressJugar()
     {
         //MMSceneLoadingManager.LoadScene("nivel1");
-        SceneManager.LoadScene("PixelLevel", LoadSceneMode.Single);
+        SceneManager.LoadScene("nivel 3", LoadSceneMode.Single);
     }
 
     public void Onpressinstrucciones()

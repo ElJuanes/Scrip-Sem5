@@ -5,18 +5,12 @@ using UnityEngine;
 //using MoreMountains.Tools;
 using UnityEngine.SceneManagement;
 
-public class ControlMenu : MonoBehaviour
+/*public class ControlMenu : MonoBehaviour
 {
   public void OnpressJugar()
     {
         //MMSceneLoadingManager.LoadScene("Nivel 2.1");
-        SceneManager.LoadScene("PixelLevel", LoadSceneMode.Single);
-    }
-
-    public void OnpressJugar2()
-    {
-        //MMSceneLoadingManager.LoadScene("nivel1");
-        SceneManager.LoadScene("nivel1", LoadSceneMode.Single);
+        SceneManager.LoadScene("nivel 3", LoadSceneMode.Single);
     }
 
 
@@ -37,3 +31,4 @@ public class ControlMenu : MonoBehaviour
         //MMSceneLoadingManager.LoadScene("Salir");
     }
 }
+*/
