@@ -18,7 +18,7 @@ public class MuroV : MonoBehaviour
 
     public void Update()
     {
-        if (contador_monedas.CantidadMonedasRecolectadas() == 20) 
+        if (contador_monedas.CantidadMonedasRecolectadas() == 180) 
         {
             CambiarEstado(false);
         }
